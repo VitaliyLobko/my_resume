@@ -25,7 +25,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: url(/img/photo.jpg) 0px 0px no-repeat;
+  background: url(./img/photo.jpg) 0px 0px no-repeat;
   margin: 75px 25px;
 }
 
