@@ -6,18 +6,16 @@ body {
 .main {
   margin: 0px auto;
   width: 1120px;
-  height: 2000px;
   box-shadow: 5px 5px 5px rgba(119, 119, 119, 0.2);
 }
 
 .header {
-  height: 450px;
   width: 1120px;
   display: flex;
 }
 
 .header_left {
-  width: 510px;
+  width: 350px;
   background-color: #fbfbfb;
 }
 
@@ -31,7 +29,6 @@ body {
 
 .header_right {
   background-color: #fff;
-  width: 100%;
 }
 
 .who {
@@ -48,6 +45,7 @@ body {
   font-weight: 700;
   color: #727272;
   margin-left: 5px;
+  font-size: 24px;
 }
 
 .header_name {
@@ -66,8 +64,7 @@ body {
 
 .contacts_block {
   height: 75px;
-  margin-top: 75px;
-  margin: 75px 25px;
+  margin: 75px 10px;
   border-top: lightgray 1px solid;
   display: flex;
   justify-content: space-between;
@@ -75,20 +72,22 @@ body {
 }
 
 .contact_block__item {
-  padding: 10px;
+  padding: 20px;
 }
 
 .contact_block__item_title {
   display: block;
   font-weight: 700;
   color: #727272;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
 .contact_block__item_text {
   display: block;
   margin-top: 20px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   color: #727272;
 }
 
@@ -191,13 +190,13 @@ body {
   width: 1120px;
 }
 
-.my_experience_left {
+.my_left {
   width: 510px;
   background-color: #fbfbfb;
   text-align: right;
 }
 
-.my_experience_right {
+.my_right {
   display: flex;
   background-color: #ffffff;
   width: 100%;
@@ -205,31 +204,31 @@ body {
   line-height: 2;
 }
 
-.my_experience_lines {
+.my_lines {
   display: flex;
   flex-direction: column;
   margin: 25px 25px;
 }
 
-.my_experience_row {
+.my_row {
   display: flex;
   justify-content: space-between;
   margin: 0px 4px;
   border-left: 1px solid #ececec;
 }
 
-.my_experience_row_left {
+.my_row_left {
   width: 510px;
 }
 
-.my_experience_row_left_title {
+.my_row_left_title {
   padding-left: 25px;
   margin: 2px 0 2px 4px;
   width: 250px;
   text-transform: uppercase;
 }
 
-.my_experience_row_left a {
+.my_row_left a {
   text-decoration: none;
   color: #727272;
   font-size: 10px;
@@ -238,15 +237,15 @@ body {
   text-transform: none;
 }
 
-.my_experience_row_left a:hover {
+.my_row_left a:hover {
   color: #f8bb10;
 }
 
-.my_experience_row_right {
+.my_row_right {
   line-height: 1.6;
 }
 
-.my_experience_row_right p {
+.my_row_right p {
   margin-bottom: 10px;
 }
 
@@ -258,13 +257,54 @@ body {
   background-color: #f8bb10;
 }
 
-.my_experience_period {
+.my_period {
   font-size: 12px;
   color: #727272;
 }
 
-.my_experience_position {
+.my_position {
   display: block;
   font-size: 12px;
   color: #727272;
+}
+
+.my_education_left {
+  width: 510px;
+  background-color: #f8f8f8;
+  text-align: right;fcfcfc
+}
+
+
+.my_education_right {
+  background-color: #fcfcfc;
+  width:100%;
+  
+}
+
+.my_education_row {
+  margin: 0px 4px;
+  border-left: 1px solid #ececec;
+  width: 600px;
+ 
+  
+}
+
+.my_education_row_left_title {
+  padding-left: 25px;
+  margin: 2px 0 2px 4px;
+  text-transform: uppercase;
+}
+
+.my_education_row_left_title a {
+  text-decoration: none;
+  color: #727272;
+  font-size: 10px;
+  display: block;
+  margin-bottom: 15px;
+  text-transform: none;
+  margin-top: 10px
+}
+
+.my_education_row_left_title a:hover {
+  color: #f8bb10;
 }
