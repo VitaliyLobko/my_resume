@@ -114,7 +114,7 @@ body {
 }
 
 .my_skills_title {
-  margin: 25px 50px 0 0;
+  margin: 25px 25px 0 0;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.45;
@@ -182,7 +182,6 @@ body {
 }
 
 .my_skills_skill_img {
-  opacity: 0.6;
 }
 
 /*my_experience*/
@@ -209,22 +208,46 @@ body {
 .my_experience_lines {
   display: flex;
   flex-direction: column;
-  margin: 25px 0;
+  margin: 25px 25px;
 }
 
-.my_experience_rows {
+.my_experience_row {
   display: flex;
   justify-content: space-between;
-  margin: 0px 25px;
+  margin: 0px 4px;
+  border-left: 1px solid #ececec;
 }
 
 .my_experience_row_left {
   width: 510px;
 }
 
+.my_experience_row_left_title {
+  padding-left: 25px;
+  margin: 2px 0 2px 4px;
+  width: 250px;
+  text-transform: uppercase;
+}
+
+.my_experience_row_left a {
+  text-decoration: none;
+  color: #727272;
+  font-size: 10px;
+  display: block;
+  margin-bottom: 15px;
+  text-transform: none;
+}
+
+.my_experience_row_left a:hover {
+  color: #f8bb10;
+}
+
 .my_experience_row_right {
-  width: 100%;
-  padding-top: 35px;
+  line-height: 1.6;
+}
+
+.my_experience_row_right p {
+  margin-bottom: 10px;
 }
 
 .orange_circle {
@@ -241,16 +264,7 @@ body {
 }
 
 .my_experience_position {
+  display: block;
   font-size: 12px;
   color: #727272;
-}
-
-.my_experience_row_left_title {
-  border-left: 1px solid #dbdbdb;
-  padding-left: 25px;
-  margin: 2px 0 2px 4px;
-}
-
-.my_experience_row_right {
-  line-height: 1.4;
 }
